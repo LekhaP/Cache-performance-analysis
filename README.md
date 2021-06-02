@@ -4,7 +4,6 @@ Programs that analyze performance of caches with different configurations in blo
 
 
 # Introduction
-# ------------------------------
 Cache performance can be improved in three ways.
 
 Miss rate reduction.
@@ -16,7 +15,6 @@ In this work, we wrote programs that analyze performance of caches with differen
 
 
 # General Assumptions
-# ------------------------------
 The given memory system is BYTE addressable.
 The main memory size is 1024KB.
 You need to generate 1024KB memory addresses.
@@ -33,7 +31,6 @@ When all blocks are filled and a new block must be loaded, a block is randomly c
 
 
 # Cache performance analysis program
-# ------------------------------
 We developed develop a simulator that analyzes performance of the following cache configurations.
 
 1)  Cache performance analysis on different block sizes.
@@ -46,13 +43,11 @@ You can assume that block size is 32.
 2. Associativity: 1-way, 2-way, 4-way and 8-way
 
 # Input
-# ------------------------------
 All possible combinations of the above design parameters
 (e.g., cache size, block size and set associativity). 
 Program is supposed to output performance measures of the given cache configurations.
 
 # Output
-# ------------------------------
 Miss rate and average memory access time for the brief performance analysis report.
 
 Note: For more details, check projectDetail.pdf
